@@ -1,0 +1,1 @@
+{{ test_unique(column_name="tag_id", model=get_where_subquery(ref('dim_genome_tags'))) }}

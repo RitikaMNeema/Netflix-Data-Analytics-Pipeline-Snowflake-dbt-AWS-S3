@@ -1,0 +1,1 @@
+{{ test_relationships(column_name="movie_id", field="movie_id", model=get_where_subquery(ref('fct_ratings')), to=ref('dim_movies')) }}
