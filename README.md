@@ -25,6 +25,7 @@ Gold Layer: Create analytical models for dashboards and reports.
 Views created by DBT appearing on Snowflake:
 Press enter or click to view image in full size
 Press enter or click to view image in full size
+
 🪄 Step 3: Data Modeling and Materialization
 Here we define dimension and fact tables in our development schema.
 We also use DBT’s materializations to decide how models are built:
@@ -34,6 +35,7 @@ Incremental models — only process new or changed data.
 Raw movies table and DBT model views:
 Press enter or click to view image in full size
 Press enter or click to view image in full size
+
 🔁 Step 4: Slowly Changing Dimensions (SCDs)
 In real-world analytics, data changes — movie titles get updated, ratings evolve, or new tags appear.
 To track these changes over time, we implemented Slowly Changing Dimensions (SCDs):
@@ -45,6 +47,7 @@ Snapshots in DBT for SCD2:
 Press enter or click to view image in full size
 
 This ensures analysts can study how user preferences evolve over time.
+
 🔍 Step 5: Testing & Documentation
 DBT includes robust data testing and documentation features.
 We built tests to ensure:
@@ -57,6 +60,7 @@ dbt docs serve
 DBT documentation and lineage:
 Press enter or click to view image in full size
 Press enter or click to view image in full size
+
 🧩 Step 6: Using Macros, Seeds & Sources
 We used macros (reusable SQL code blocks) to eliminate redundancy.
 Seed files were created for static reference data and loaded using dbt seed.
